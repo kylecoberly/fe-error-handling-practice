@@ -3,11 +3,17 @@
   <head>
     <title>Error Handling</title>
     <meta charset="utf-8">
+    <style>
+      .error {
+        color: hsl(0, 50%, 50%);
+      }
+    </style>
   </head>
   <body>
     <form>
       <input required placeholder="important stuff goes here" />
       <input type="submit" value="Add important stuff" />
+      <p class="error"></p>
     </form>
     <script src="app.js"></script>
   </body>
